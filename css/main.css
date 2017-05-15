@@ -1,0 +1,188 @@
+/* Agrega aquí tus estilos*/
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color: #0d8ba1;
+}
+
+a:visited {
+	color: #1a5952;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url('../bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+div.page-wrapper {
+    background-color: rgba(255, 255, 255, .8);
+}
+
+/*section.intro#zen-intro {
+	background-color: brown;
+}*/
+
+section.intro#zen-intro > header[role="banner"] {
+	background-image: url('http://lorempixel.com/1920/300/nature/1/');
+	height: 300px;
+	padding: 100px;
+}
+
+section.intro#zen-intro > header[role="banner"] > h1:before{
+  content: '';
+  background-image: url('http://zachwill.github.io/hn/img/octocat.png'); 
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  left: 100px;
+  position: absolute;
+}
+
+section.intro#zen-intro > header[role="banner"] > h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 4em;
+	margin: 0;
+	margin-left: 120px;
+	color: black;
+}
+
+section.intro#zen-intro > header[role="banner"] > h2 {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 2em;
+	font-style: italic;
+	margin: 0;
+	margin-left: 120px;
+	color: lightcyan;
+}
+
+section.intro#zen-intro > header[role="banner"] > h2 > abbr {
+
+}
+
+.summary, 
+.preamble, 
+.explanation,
+.requirements {
+	background-color: white;
+	padding: 20px 0;
+}
+
+.summary, 
+.preamble, 
+.explanation,
+.participation,
+.benefits,
+.requirements {
+ 	float: left;
+    clear: left;
+    width: 100%;
+    padding: 1em 0;
+
+    background-image: url('https://fakeimg.pl/1x1/e5ede8%2C128/000%2C0/');
+	background-repeat: repeat-y;
+	background-position: 100%;
+	background-size: 34%;
+ }
+
+.summary > p, 
+.preamble > p, 
+.explanation > p,
+.participation > p,
+.benefits > p,
+.requirements > p {
+	width: 66%;
+	padding-left: 10%;
+	padding-right: 5%;
+
+	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 1.5em;
+}
+
+
+.summary > h3, 
+.preamble > h3, 
+.explanation > h3,
+.participation > h3,
+.benefits > h3,
+.requirements > h3 {
+	width: 66%;
+	padding-left: 10%;
+	padding-right: 5%;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+ .requirements > p:last-child {
+ 	background-image: url('http://lorempixel.com/1920/300/nature/1/');
+ 	width: 100%;
+	height: auto;
+	padding: 100px;
+	margin: 0;
+	margin-bottom: -15px;
+	font-size: 2em;
+ }
+
+.requirements > p:last-child > a {
+	color: lightcyan;
+}
+
+.requirements > p:last-child > a:visited {
+	color: cyan;
+}
+
+.design-selection {
+	position: absolute;
+    top: 300px;
+    right: 0;
+    width: 33.3%;
+    padding: 0 0 20px 0;
+    margin: 0;
+    overflow: visible;
+    background: transparent;
+}
+
+.design-archives {
+	position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 66%;
+    width: 100%;
+    height: 300px;
+    padding: 0 0 0 20px;
+
+    background-image: url('https://fakeimg.pl/1x1/e5ede8%2C128/000%2C0/');
+	background-repeat: repeat-y;
+	background-position: 0%;
+	background-size: 34%;
+
+	overflow: hidden;
+}
+
+.zen-resources {
+	position: absolute;
+    top: 1300px;
+    right: 0;
+    width: 34%;
+    padding: 0 0 0 20px;
+    background: transparent;
+}
+
+footer {
+	background-color: cyan;
+	clear: both;
+}
+
+
